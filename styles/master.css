@@ -163,6 +163,7 @@ header {
 
 .shop {
   font-weight: 500;
+  margin-bottom: 104px;
 }
 .shop h2 {
   color: var(--grey);
@@ -206,4 +207,69 @@ header {
   text-align: center;
   margin-bottom: 24px;
   text-decoration: none;
+}
+.shop a:last-child {
+  padding: 14px 33px;
+}
+
+@media (min-width: 768px) {
+  .shop h2 {
+    font-size: 80px;
+    line-height: 96px;
+    margin-bottom: 88px;
+    padding: 0 24px;
+  }
+  .shop__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .shop__item {
+    width: 348px;
+  }
+}
+footer {
+  background-color: #949494;
+  margin-top: 48px;
+}
+.footer__list {
+  padding: 16px 34px 34px 16px;
+  color: #FFF;
+}
+footer ul li h3 {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 24px;
+}
+footer ul li p {
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+.footer__socials {
+  display: flex;
+}
+.footer__socials li {
+  background: #C4C4C4;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 16px;
+}
+.footer__socials img {
+  padding: 13px;
+}
+@media (min-width: 768px) {
+  .footer__list {
+    display: flex;
+  }
+  .footer__List__item {
+    margin-right: 88px;
+  }
 }
